@@ -19,4 +19,12 @@
 ### Super+X Kills active window
 ### Super+Control+R refreshes awesome config
 
+#
+#
+#
+#
+#
+#
+#
+#
 ##### If you like my work, thank you! you dont need to do anything lol just thanks
