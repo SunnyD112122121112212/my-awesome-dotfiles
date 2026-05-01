@@ -1,5 +1,14 @@
 #!/bin/sh
 
+read -p "Continue? This will back up your existing config for Rofi, Awesome, and Kitty. (y/n) " yn
+
+case $yn in
+    [Yy]* ) echo " ";;
+    [Nn]* ) echo "Received N. Abort."; exit;;
+    * ) echo "Please answer yes or no.";;
+esac
+
+
 mkdir ~/awesome-backup
 
 sudo pacman -S awesome rofi kitty feh
